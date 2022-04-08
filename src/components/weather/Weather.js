@@ -32,9 +32,9 @@ export default function Weather() {
                         {weather?.main?.temp}
                     </Typography>
                     <Typography variant="body2">
-                        Sunrise : {Date.parse(weather?.sys?.sunrise)}
+                        Sunrise : {weather?.sys?.sunrise}
                         <br />
-                        Sunset : {Date.parse(weather?.sys?.sunset)}
+                        Sunset : {weather?.sys?.sunset}
                     </Typography>
                 </CardContent>
             </React.Fragment>
